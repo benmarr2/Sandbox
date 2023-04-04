@@ -3,3 +3,5 @@ res://Tilesets/Castle Tileset/Castle_tileset.tres
 res://first_person_dungeon.tscn
 res://Tilesets/Mossy Tileset/Mossy_tileset.tres
 res://Tilesets/Mossy Tileset/mossy_tileset.tscn
+res://Water/Water.tres
+res://scripts/Water test/Water.tres
