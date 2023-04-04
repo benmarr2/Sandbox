@@ -1,0 +1,18 @@
+2a60927148abd1d33b818b535e306557
+::res://::1680637727
+first_person_dungeon.tscn::PackedScene::2118529569177026615::1680637684::0::1::::<><>::uid://b1gtrml3hsryb<>uid://ba63vcjeovmh8<>res://scripts/Player.gd
+::res://scripts/::1680631144
+Player.gd::GDScript::-1::1680631144::0::1::::<>CharacterBody3D<>::
+::res://Tilesets/::1680631104
+::res://Tilesets/Castle Tileset/::1680637684
+Castle_tileset.tres::MeshLibrary::2452154090689647879::1680637684::0::1::::<><>::uid://dmwco1fsa3j4f<>uid://chdd4f8tab2s3
+castle_updated_stonefloor.glb::PackedScene::2429403240416389046::1680629195::1680637632::1::::<><>::uid://dmwco1fsa3j4f<>uid://chdd4f8tab2s3
+castle_updated_stonefloor.tscn::PackedScene::-1::1680631104::0::1::::<><>::uid://bau26fnlup207
+castle_updated_stonefloor_Castle_atlas_normalmap.png::CompressedTexture2D::5270590659574790164::1680629196::1680637632::1::::<><>::
+castle_updated_stonefloor_castle_tileset_Castle_atlas_texturemap.png::CompressedTexture2D::8047092294575283683::1680629196::1680637632::1::::<><>::
+::res://Tilesets/Cave Tileset/::1680637684
+castle-cave-combined.glb::PackedScene::2537785287860409186::1680536695::1680637633::1::::<><>::uid://dnirnbylu04m7<>uid://xme0d0qbsbci
+castle-cave-combined_normal_atlas.png::CompressedTexture2D::1639403646461323056::1680536695::1680637632::1::::<><>::
+castle-cave-combined_texture_atlas.png::CompressedTexture2D::8089287534730184980::1680536695::1680637632::1::::<><>::
+castle_cave_combined.tscn::PackedScene::7491179685409848325::1680537300::0::1::::<><>::
+cave_tileset_updated.tres::MeshLibrary::4224901514720572213::1680637684::0::1::::<><>::uid://dnirnbylu04m7<>uid://xme0d0qbsbci
