@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bau26fnlup207"
-path="res://.godot/imported/castle_updated_stonefloor.glb-72cd142449d1eb13fb00ce7b11931754.scn"
+path="res://.godot/imported/castle_updated_stonefloor.glb-acfb4a300dbbb835b84b088ca335bec1.scn"
 
 [deps]
 
-source_file="res://Tilesets/Castle Tileset/castle_updated_stonefloor.glb"
-dest_files=["res://.godot/imported/castle_updated_stonefloor.glb-72cd142449d1eb13fb00ce7b11931754.scn"]
+source_file="res://Tilesets/Castle Interior Tileset/castle_updated_stonefloor.glb"
+dest_files=["res://.godot/imported/castle_updated_stonefloor.glb-acfb4a300dbbb835b84b088ca335bec1.scn"]
 
 [params]
 

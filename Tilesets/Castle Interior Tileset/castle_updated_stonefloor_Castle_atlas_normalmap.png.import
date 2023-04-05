@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chdd4f8tab2s3"
-path.s3tc="res://.godot/imported/castle_updated_stonefloor_Castle_atlas_normalmap.png-516a1366e99e211af72c1d53e47d6a00.s3tc.ctex"
+path.s3tc="res://.godot/imported/castle_updated_stonefloor_Castle_atlas_normalmap.png-f1560fee501bade8ebc3fda10916f2f3.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://Tilesets/Castle Tileset/castle_updated_stonefloor_Castle_atlas_normalmap.png"
-dest_files=["res://.godot/imported/castle_updated_stonefloor_Castle_atlas_normalmap.png-516a1366e99e211af72c1d53e47d6a00.s3tc.ctex"]
+source_file="res://Tilesets/Castle Interior Tileset/castle_updated_stonefloor_Castle_atlas_normalmap.png"
+dest_files=["res://.godot/imported/castle_updated_stonefloor_Castle_atlas_normalmap.png-f1560fee501bade8ebc3fda10916f2f3.s3tc.ctex"]
 
 [params]
 
