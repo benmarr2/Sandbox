@@ -1,2 +1,0 @@
-﻿39671
-/opt/godot-mono-bin/godot/Godot_v4.0.1-stable_mono_linux.x86_64
