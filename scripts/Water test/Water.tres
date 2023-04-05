@@ -17,8 +17,9 @@ constant = 0.4
 
 [sub_resource type="VisualShaderNodeColorParameter" id="VisualShaderNodeColorParameter_jby0v"]
 parameter_name = "ColorParameter"
+qualifier = 2
 default_value_enabled = true
-default_value = Color(0.481745, 0.503078, 0.339957, 1)
+default_value = Color(0.384344, 0.518607, 0.482726, 1)
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_0eytw"]
 noise_type = 2
@@ -94,7 +95,7 @@ operator = 2
 [resource]
 code = "shader_type spatial;
 uniform sampler2D tex_vtx_4;
-uniform vec4 ColorParameter : source_color = vec4(0.481745, 0.503078, 0.339957, 1.000000);
+instance uniform vec4 ColorParameter : source_color = vec4(0.384344, 0.518607, 0.482726, 1.000000);
 uniform sampler2D tex_frg_3;
 uniform sampler2D tex_frg_7;
 
@@ -198,7 +199,7 @@ void fragment() {
 
 }
 "
-graph_offset = Vector2(-1654.48, 424.476)
+graph_offset = Vector2(-1468.57, 158.863)
 nodes/vertex/0/position = Vector2(800, 80)
 nodes/vertex/2/node = SubResource("VisualShaderNodeInput_1dtvv")
 nodes/vertex/2/position = Vector2(-440, 240)
@@ -217,7 +218,7 @@ nodes/vertex/8/position = Vector2(460, 460)
 nodes/vertex/connections = PackedInt32Array(2, 0, 3, 2, 3, 0, 4, 0, 4, 0, 7, 0, 5, 0, 7, 2, 7, 0, 0, 0, 6, 0, 8, 0, 8, 0, 7, 1)
 nodes/fragment/0/position = Vector2(380, 560)
 nodes/fragment/2/node = SubResource("VisualShaderNodeColorParameter_jby0v")
-nodes/fragment/2/position = Vector2(-380, 580)
+nodes/fragment/2/position = Vector2(-400, 600)
 nodes/fragment/3/node = SubResource("VisualShaderNodeTexture_hlj6m")
 nodes/fragment/3/position = Vector2(-600, 560)
 nodes/fragment/4/node = SubResource("VisualShaderNodeVectorOp_uw44q")

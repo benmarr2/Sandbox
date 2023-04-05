@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d3l602ce682ly"
+path="res://.godot/imported/sword.obj-e4150935612097273b658307b995d9dd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/sword.obj-e4150935612097273b658307b995d9dd.mesh"]
+
+source_file="res://Weapons/sword.obj"
+dest_files=["res://.godot/imported/sword.obj-e4150935612097273b658307b995d9dd.mesh", "res://.godot/imported/sword.obj-e4150935612097273b658307b995d9dd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

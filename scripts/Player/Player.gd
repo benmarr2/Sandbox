@@ -8,6 +8,8 @@ const JUMP_VELOCITY = 4.5
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 @onready var neck := $neck
 @onready var camera := $neck/Camera3D
+@onready var anim_player = $AnimationPlayer
+@onready var hitbox = $"neck/Camera3D/Weapon Pivot/Weapon mesh/Hitbox"
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton:
@@ -20,6 +22,12 @@ func _unhandled_input(event: InputEvent) -> void:
 			camera.rotate_x(-event.relative.y * 0.01)
 			camera.rotation.x = clamp(camera.rotation.x, deg_to_rad(-60), deg_to_rad(60))
 	
+func _process(_delta):
+	if Input.is_action_just_pressed("attack"):
+		anim_player.play("attack")
+		hitbox.monitoring = true
+	
+	
 func _physics_process(delta):
 	# Add the gravity.
 	if not is_on_floor():
@@ -28,6 +36,7 @@ func _physics_process(delta):
 	# Handle Jump.
 	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
+		
 
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
@@ -41,3 +50,10 @@ func _physics_process(delta):
 		velocity.z = move_toward(velocity.z, 0, SPEED)
 
 	move_and_slide()
+
+func _on_animation_player_animation_finished(anim_name):
+	if anim_name == "attack":
+		anim_player.play("idle")
+		hitbox.monitoring = false
+		
+	pass # Replace with function body.

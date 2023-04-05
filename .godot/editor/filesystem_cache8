@@ -1,28 +1,30 @@
 2a60927148abd1d33b818b535e306557
-::res://::1680650303
-first_person_dungeon.tscn::PackedScene::5988047740783703646::1680650316::0::1::::<><>::uid://b1gtrml3hsryb<>uid://ba63vcjeovmh8<>uid://dqc1a0nemephp<>res://scripts/Player/Player.gd<>uid://dlh8l07vxudjk
-::res://scripts/::1680650301
-::res://scripts/Player/::1680650301
-Player.gd::GDScript::-1::1680631144::0::1::::<>CharacterBody3D<>::
-::res://scripts/Water test/::0
+::res://::1680709314
+first_person_dungeon.tscn::PackedScene::-1::1680709314::0::1::::<><>::uid://b1gtrml3hsryb<>uid://ba63vcjeovmh8<>uid://dqc1a0nemephp<>res://scripts/Player/Player.gd<>uid://dlh8l07vxudjk<>uid://d3l602ce682ly<>uid://bxq63yy3mggxd
+::res://scripts/::1680650316
+::res://scripts/Player/::1680708494
+Player.gd::GDScript::-1::1680708494::0::1::::<>CharacterBody3D<>::
+::res://scripts/Water test/::1680708274
+Water.tres::VisualShader::7947814643373489400::1680708274::0::1::::<><>::
 ::res://Tilesets/::1680644819
-::res://Tilesets/Castle Tileset/::1680650303
-Castle_tileset.tres::MeshLibrary::2452154090689647879::1680650303::0::1::::<><>::uid://dmwco1fsa3j4f<>uid://chdd4f8tab2s3
+::res://Tilesets/Castle Tileset/::1680708274
+Castle_tileset.tres::MeshLibrary::2452154090689647879::1680708274::0::1::::<><>::uid://dmwco1fsa3j4f<>uid://chdd4f8tab2s3
 castle_updated_stonefloor.glb::PackedScene::2429403240416389046::1680629195::1680637632::1::::<><>::uid://dmwco1fsa3j4f<>uid://chdd4f8tab2s3
 castle_updated_stonefloor.tscn::PackedScene::-1::1680631104::0::1::::<><>::uid://bau26fnlup207
 castle_updated_stonefloor_Castle_atlas_normalmap.png::CompressedTexture2D::5270590659574790164::1680629196::1680637632::1::::<><>::
 castle_updated_stonefloor_castle_tileset_Castle_atlas_texturemap.png::CompressedTexture2D::8047092294575283683::1680629196::1680637632::1::::<><>::
-::res://Tilesets/Cave Tileset/::1680650303
+::res://Tilesets/Cave Tileset/::1680708274
 castle-cave-combined.glb::PackedScene::2537785287860409186::1680536695::1680637633::1::::<><>::uid://dnirnbylu04m7<>uid://xme0d0qbsbci
 castle-cave-combined_normal_atlas.png::CompressedTexture2D::1639403646461323056::1680536695::1680637632::1::::<><>::
 castle-cave-combined_texture_atlas.png::CompressedTexture2D::8089287534730184980::1680536695::1680637632::1::::<><>::
 castle_cave_combined.tscn::PackedScene::7491179685409848325::1680537300::0::1::::<><>::
-cave_tileset_updated.tres::MeshLibrary::4224901514720572213::1680650303::0::1::::<><>::uid://dnirnbylu04m7<>uid://xme0d0qbsbci
-::res://Tilesets/Mossy Tileset/::1680650303
+cave_tileset_updated.tres::MeshLibrary::4224901514720572213::1680708274::0::1::::<><>::uid://dnirnbylu04m7<>uid://xme0d0qbsbci
+::res://Tilesets/Mossy Tileset/::1680708274
 mossy_tileset.glb::PackedScene::71767101195167957::1680644828::1680644828::1::::<><>::uid://bu5xbdg7kibh4<>uid://dpq3ltdww0keb
-Mossy_tileset.tres::MeshLibrary::8287992279972032473::1680650303::0::1::::<><>::uid://bu5xbdg7kibh4<>uid://dpq3ltdww0keb
-mossy_tileset.tscn::PackedScene::5493196958368100303::1680650303::0::1::::<><>::uid://ba081xi3poqf
+Mossy_tileset.tres::MeshLibrary::8287992279972032473::1680708274::0::1::::<><>::uid://bu5xbdg7kibh4<>uid://dpq3ltdww0keb
+mossy_tileset.tscn::PackedScene::5493196958368100303::1680650419::0::1::::<><>::uid://ba081xi3poqf
 mossy_tileset_Mossy_normal_atlas.png::CompressedTexture2D::8246845472853199193::1680644828::1680644828::1::::<><>::
 mossy_tileset_Mossy_texture_atlas.png::CompressedTexture2D::3853527334009565295::1680644828::1680644828::1::::<><>::
-::res://Water test/::1680649958
-Water.tres::VisualShader::7947814643373489400::1680649958::0::1::::<><>::
+::res://Weapons/::1680705616
+sword.obj::Mesh::9149186121306809714::1680705606::1680709314::1::::<><>::
+Sword_texture_atlas.png::CompressedTexture2D::4035727659362080665::1680704749::1680709314::1::::<><>::
