@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://ru6duvsvd6if"]
+
+[ext_resource type="PackedScene" uid="uid://dpdbhm64ohf02" path="res://Tilesets/Exterior Tileset/mossy_exterior_tileset.glb" id="1_jgaaf"]
+
+[node name="mossy_exterior_tileset" instance=ExtResource("1_jgaaf")]
