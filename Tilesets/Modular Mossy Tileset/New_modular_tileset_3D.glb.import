@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://b042y7yklie2y"
-path="res://.godot/imported/Mossy_catsle_exterior_fixed.glb-ddc8e2056c73cd50f515aff0a3e39ccf.scn"
+uid="uid://deap7hkbbcpvo"
+path="res://.godot/imported/New_modular_tileset_3D.glb-2800824b4125146af870d2d602118cc5.scn"
 
 [deps]
 
-source_file="res://Tilesets/Final Try/Mossy_catsle_exterior_fixed.glb"
-dest_files=["res://.godot/imported/Mossy_catsle_exterior_fixed.glb-ddc8e2056c73cd50f515aff0a3e39ccf.scn"]
+source_file="res://Tilesets/Modular Mossy Tileset/New_modular_tileset_3D.glb"
+dest_files=["res://.godot/imported/New_modular_tileset_3D.glb-2800824b4125146af870d2d602118cc5.scn"]
 
 [params]
 
