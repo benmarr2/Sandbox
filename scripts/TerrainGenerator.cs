@@ -66,9 +66,6 @@ public partial class TerrainGenerator : MeshInstance3D
         };
         terrainBody.AddChild(terrainMesh);
 
-
-        
-
         // Load and apply the material
         Material terrainMaterial = (Material)ResourceLoader.Load("res://simple_material.tres");
         terrainMesh.SetSurfaceOverrideMaterial(0, terrainMaterial);

@@ -1,6 +1,5 @@
-[gd_scene load_steps=20 format=3 uid="uid://b344hv1be34pj"]
+[gd_scene load_steps=19 format=3 uid="uid://b344hv1be34pj"]
 
-[ext_resource type="MeshLibrary" uid="uid://xeych1wf7usj" path="res://Tilesets/Castle Interior Tileset/Castle_tileset.tres" id="2_4lpty"]
 [ext_resource type="MeshLibrary" uid="uid://bb6qmaov4uh0a" path="res://Tilesets/Modular Mossy Tileset/Modular_Tileset_3D.tres" id="3_xmxvw"]
 [ext_resource type="Script" path="res://scripts/Player/Player.gd" id="4_18eo1"]
 [ext_resource type="ArrayMesh" uid="uid://d3l602ce682ly" path="res://Weapons/sword.obj" id="5_he2b4"]
@@ -196,7 +195,6 @@ environment = SubResource("Environment_5h03g")
 
 [node name="GridMap Brick" type="GridMap" parent="."]
 transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 0, 0)
-mesh_library = ExtResource("2_4lpty")
 cell_size = Vector3(1, 1, 1)
 cell_center_y = false
 data = {
