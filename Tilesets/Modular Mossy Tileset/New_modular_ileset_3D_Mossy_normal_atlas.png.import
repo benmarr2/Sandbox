@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bove35x6vhwmt"
-path.s3tc="res://.godot/imported/New_modular_tileset_3D_Mossy_texture_atlas.png-ab3e3ba43a1cae7fb677b058b70d2d94.s3tc.ctex"
+uid="uid://cycoh34ougncv"
+path.s3tc="res://.godot/imported/New_modular_ileset_3D_Mossy_normal_atlas.png-e8b690e39064620b6ec57f9f120c61da.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://Tilesets/Modular Mossy Tileset/New_modular_tileset_3D_Mossy_texture_atlas.png"
-dest_files=["res://.godot/imported/New_modular_tileset_3D_Mossy_texture_atlas.png-ab3e3ba43a1cae7fb677b058b70d2d94.s3tc.ctex"]
+source_file="res://Tilesets/Modular Mossy Tileset/New_modular_ileset_3D_Mossy_normal_atlas.png"
+dest_files=["res://.godot/imported/New_modular_ileset_3D_Mossy_normal_atlas.png-e8b690e39064620b6ec57f9f120c61da.s3tc.ctex"]
 
 [params]
 
@@ -21,12 +21,12 @@ compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/normal_map=0
+compress/normal_map=1
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=0
-roughness/src_normal=""
+roughness/mode=1
+roughness/src_normal="res://Tilesets/Modular Tileset new/New_modular_ileset_3D_Mossy_normal_atlas.png"
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false
