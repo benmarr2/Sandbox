@@ -1,5 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://cki7fe7gxod2n"]
-
-[ext_resource type="PackedScene" uid="uid://ba081xi3poqf" path="res://Tilesets/Mossy Tileset/mossy_tileset.glb" id="1_c4ckt"]
-
-[node name="mossy_tileset" instance=ExtResource("1_c4ckt")]
